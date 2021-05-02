@@ -1,4 +1,0 @@
-/**
- * Program Exceptions
- */
-package exceptions;
