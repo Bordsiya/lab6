@@ -1,0 +1,16 @@
+apply plugin: 'application'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'client.ApplicationClient'
+
+dependencies {
+    implementation project(':common')
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
