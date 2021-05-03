@@ -1,0 +1,36 @@
+[
+	{
+		"id": 1,
+		"name": "Влад",
+		"coordinates": {
+			"x": 52,
+			"y": 4.77
+		},
+		"creationDate": "2021-02-19T06:09:19.521",
+		"health": 100.5,
+		"achievements": "Милота, добродушие",
+		"weaponType": "MULTI_MELTA",
+		"meleeWeapon": "CHAIN_AXE",
+		"chapter": {
+			"name": "Пролог",
+			"world": "Алфея"
+		}
+	},
+	{
+		"id":2,
+		"name": "Настя",
+		"coordinates": {
+			"x": 88,
+			"y": 44.79
+		},
+		"creationDate": "2021-02-19T08:04:17.521",
+		"health": 0.5,
+		"achievements": "Пассивная агрессия, любовь к яою",
+		"weaponType": "FLAMER",
+		"meleeWeapon": "MANREAPER",
+		"chapter": {
+			"name": "Глава 2",
+			"world": "Мир Гарри Поттера"
+		}
+	}
+]
