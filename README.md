@@ -1,2 +1,2 @@
 # lab6
-This is a draft
+ITMO, 1 course, Programming
