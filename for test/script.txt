@@ -1,0 +1,37 @@
+help
+show
+add
+Вася Пупкин
+99
+44.9
+
+Любовь к моторчикам
+
+CHAIN_AXE
+Глава 55
+Мир Драконов
+execute_script script1.txt
+reorder
+print_field_ascending_weapon_type
+update 1
+1
+Боба
+1
+77
+1
+66.8
+2
+2
+2
+1
+CHAIN_AXE
+1
+Глава 2
+1
+Алфея
+info
+execute_script script.txt
+save
+remove_by_id 1
+clear
+exit
