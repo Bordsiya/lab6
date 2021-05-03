@@ -1,0 +1,19 @@
+apply plugin: 'application'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'ApplicationClient'
+
+dependencies {
+    implementation project(':common')
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+    from {
+        configurations.runtimeClasspath.filter{ it.exists() }.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
